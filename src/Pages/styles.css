@@ -1,0 +1,54 @@
+/* 
+	Active class to handle active sidebar item
+*/
+.active {
+  background: #e3e9ef;
+  margin-left: 0;
+  border-radius: 5px;
+  padding-left: 0 !important;
+  padding-right: 10px;
+  color: #001d69 !important;
+}
+.active::before {
+  content: "";
+  padding: 0;
+  width: 8px;
+  height: 100%;
+  background: #001d69;
+  border-radius: 5px;
+}
+
+.activeTab {
+  font-size: 14px;
+  font-weight: 400 !important;
+  background-color: #001d69 !important;
+  color: #fff !important;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.activeSide {
+  background-color: #fff !important;
+  color: #009444 !important;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-carousel-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cat-carousel-item {
+  margin: 0px 10px;
+  /* padding: 10px; */
+}
+
+.prom-carousel-item {
+  margin-right: 40px;
+}

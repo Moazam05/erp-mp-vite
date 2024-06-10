@@ -1,0 +1,69 @@
+name: Deploying MarketPlace to EC2
+
+on:
+  push:
+    branches:
+      - uat
+
+jobs:
+  deploy:
+    runs-on:  ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+        
+      - name: Install SCP and SSH Clients
+        run:  | 
+          sudo apt-get update
+          sudo apt-get install openssh-client
+      
+      - name: Creating Deployment Directory on EC2
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST_UAT }}
+          username: ${{ secrets.EC2_USERNAME_UAT }}
+          key: ${{ secrets.EC2_PRIVATE_KEY_UAT }}
+          script: |
+            if  [ ! -d /home/ubuntu/3ndey-mp  ];  then
+              sudo mkdir /home/ubuntu/3ndey-mp
+              sudo chown -R ubuntu:ubuntu /home/ubuntu/3ndey-mp
+              sudo chown -R 755 /home/ubuntu/3ndey-mp
+            else
+              echo "Directory already exists"
+            fi
+      
+      - name: SCP Files to Server
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.EC2_HOST_UAT }}
+          username: ${{ secrets.EC2_USERNAME_UAT }}
+          key: ${{ secrets.EC2_PRIVATE_KEY_UAT }}
+          source: .
+          target: /home/ubuntu/3ndey-mp
+      
+      - name: Instal PM2 & Serve
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST_UAT }}
+          username: ${{ secrets.EC2_USERNAME_UAT }}
+          key: ${{ secrets.EC2_PRIVATE_KEY_UAT }}
+          script: |
+            sudo npm install pm2@latest -g
+            sudo npm install serve -g
+      
+      - name: Staring Server Marketplace on EC2
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.EC2_HOST_UAT }}
+          username: ${{ secrets.EC2_USERNAME_UAT }}
+          key: ${{ secrets.EC2_PRIVATE_KEY_UAT }}
+          script: |
+            cd /home/ubuntu/3ndey-mp
+            pm2 delete all
+            pm2 serve build 3000 --spa

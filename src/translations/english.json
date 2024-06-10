@@ -1,0 +1,298 @@
+{
+  "navbar": {
+    "signin": "Signed In",
+    "reorder": "Reorder",
+    "navlinks": {
+      "home": "Home",
+      "blog": "Blog",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "privacy": "Privacy Policy",
+      "shipping": "Return Policy"
+    }
+  },
+  "login": {
+    "signin": "Sign in to your account",
+    "start": "Start buying today",
+    "email": "Email",
+    "pass": "Password",
+    "me": "Remember me",
+    "your": "Forgot your password?",
+    "in": "Sign In",
+    "account": "Don't have an account?",
+    "up": "Sign up",
+    "today": "Start buying today"
+  },
+  "register": {
+    "join": "Join our community",
+    "journey": "Start your journey with AI3RP from now",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "start": "Start your journey with AI3RP from now",
+    "reg": "Register",
+    "already": "Already have an account?",
+    "login": "Login",
+    "forget": "Forgot your Password?",
+    "enter": "Enter the email address associated with your account",
+    "send": "Send Code",
+    "reset": "Reset Password?",
+    "new": "Enter your New Password to secure your account",
+    "otp": "OTP",
+    "newpass": "New Password",
+    "confirm": "Confirm Password",
+    "resetpass": "Reset Password"
+  },
+  "headings": {
+    "heading": "Welcome to Our Website",
+    "subheading": "Explore the Exciting Features",
+    "button": "Click Me",
+    "link": "Learn More"
+  },
+  "bestseller": {
+    "title": "Best Sellers"
+  },
+  "recommended": {
+    "title": "Recommended Products"
+  },
+  "deal": {
+    "title": " Deal Of The Day"
+  },
+  "category": {
+    "budget": "For Every Budget",
+    "view": " View"
+  },
+  "services": {
+    "delivery": "Delivery to any point of the city and regions",
+    "fast": "Fast Shipping",
+    "all": "All products are 100% organic, certified",
+    "back": "Money Back Return",
+    "online": "Online payment with credit and debit card",
+    "easy": "Easy and secure",
+    "any": "Delivery to any point of the city and regions",
+    "support": "24/7 Support"
+  },
+  "footer": {
+    "moist": " Healthy, moist food free of preservatives with the taste of tuna for young cats Order it and notice the difference on the immunity and strength",
+    "clinic": " Our Clinics",
+    "store": "Our Stores",
+    "link": "Useful links",
+    "info": "Store Infomation",
+    "shop": "Shop",
+    "account": "My Account",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "return": "Return Policy",
+    "privacy": "Privacy Policy"
+  },
+  "productlisting": {
+    "search": "Search",
+    "range": "Price Range",
+    "apply": "Apply",
+    "cat": "Categories",
+    "sub": "Subcategories",
+    "nosubcat": "No subcategories",
+    "nobrand": "No brands",
+    "this": "No Products available under this criteria!",
+    "here": "Search here...",
+    "brand": "Brands",
+    "one": "0-1000",
+    "two": "1001-2000",
+    "three": "2001-3000",
+    "four": "3001-4000",
+    "five": "4001-5000",
+    "six": "More than 5000",
+     "type": "Product Type",
+    "sell" : "Sellable",
+    "service":"Service"
+  },
+  "productdetail": {
+    "rate": "4.7 Star Rating",
+    "feed": "19,671 User feedback",
+    "sku": "Sku:",
+    "brand": "Brand:",
+    "avail": " Availability:",
+    "category": "Category:",
+    "color": "Color",
+    "size": "Size",
+    "add": "Add To Cart",
+    "buy": "BUY NOW",
+    "safe": "100% Guarantee Safe Checkout",
+    "desc": "Description",
+    "review": "Reviews",
+    "feature": "Feature",
+    "service": "Service Terms",
+    "year": "Free 1 Year Warranty",
+    "fast": "Free Shipping & Fasted Delivery",
+    "back": "100% Money-back guarante",
+    "support": "24/7 Customer support",
+    "secure": "Secure payment method",
+    "no": "No Reviews for this product",
+    "in": "In Stock",
+    "out": "Out of Stock",
+    "stock": "Avbl:",
+    "get": "GET QUOTE NOW"
+  },
+  "cart": {
+    "no": "No items in cart!",
+    "total": " Card Totals",
+    "sub": "Sub-total",
+    "dis": "Discount",
+    "tot": "Total",
+    "proceed": "Proceed to Checkout"
+  },
+  "checkout": {
+    "to": "Billing to",
+    "shipping": "Shipping Address",
+    "set": "Set your address",
+    "add": "Additional Information",
+    "order": "Order Notes:",
+    "return": "Return to cart",
+    "summary": "Order Summary",
+    "no": "No items in cart!",
+    "apply": "Apply",
+    "sub": "Sub-total",
+    "dis": "Discount",
+    "tax": "Vat",
+    "grand": "Grand Total",
+    "payment": "Process Payment",
+    "place": "Place Order",
+    "code": "Discount Code",
+    "new": "Add New Address",
+    "option": "Payment Option",
+    "card": "Debid/Credit Card",
+    "apple": "Apple Pay",
+    "stc": "STC",
+    "tabby": "Tabby",
+    "cash": "Cash on Delivery",
+    "deliveryNote": "Note: There could be delay in delivery during any public holidays."
+  },
+  "sidebar": {
+    "detail": "Details",
+    "add": "Addresses",
+    "order": "Order History",
+    "card": "Cards",
+    "set": "Settings",
+    "logout": "Log-out"
+  },
+  "order-history": {
+    "history": "Orders History",
+    "id": "Order Id",
+    "status": "Status",
+    "at": "Created at",
+    "price": "Price",
+    "action": "Action",
+    "not": "You have not placed any order!",
+    "view": "View Details",
+    "invoice": "Download Invoice",
+    "payment": "Pay Now"
+  },
+  "profiledetail": {
+    "title": "Profile Details",
+    "full": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "change": "Change Password",
+    "current": "Current Password",
+    "new": "New Password",
+    "confirm": "Confirm Password"
+  },
+  "modal": {
+    "update": "Update Address",
+    "add": "Add new Address",
+    "select": "Select a label for effective delivery:",
+    "home": "Home",
+    "office": "Office",
+    "optional": "Default address (optional)",
+    "billing": "Billing address",
+    "shipping": "Shipping address",
+    "your": "Your existing default address setting will be replaced if you make some changes here.",
+    "full": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "city": "City",
+    "country": "Country",
+    "address": "Address",
+    "land": "Landmark",
+    "save": "Save",
+    "edit": "Update"
+  },
+  "address": {
+    "book": "Address Book",
+    "add": "Add address",
+    "your": "Add your Address!",
+    "edit": "Edit",
+    "default": "Default Billing Address",
+    "ship": "Default Shipping Address",
+    "detail": "Order Detail"
+  },
+  "orderdetail": {
+    "code": "Order code",
+    "on": "Placed on",
+    "to": "Shipped to",
+    "type": "Payment method",
+    "id": "Transaction id",
+    "paid": "Amount paid"
+  },
+  "footer": {
+    "petosiska": "Pet Osiska",
+    "usefullinks": "Useful links",
+    "storeInfomation": "Store Infomation",
+    "ConnectUs": "Connect with us"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdate": "Last Update: 29/02/2024",
+    "privacypolicy": "We respect your concern regarding the privacy policy and the value of our relationship with you. This privacy policy reflects all types of personal information we collect about our customers, how we use this information, and with whom we share. Also, the available options to our customers regarding our use of information, the standard we use to protect information, and how our customers contact us about our actions. By providing your personal information, you hereby consent to the privacy policy and agree that we may collect, use, and disclose personal information according to the privacy policy. Note that you are not obligated to provide any information we ask you to provide. However, if you do not provide us with the information we ask for, we may not be able to provide any products or services based on the collection of this information. Please exit from the website if you do not agree to the privacy policy, or if you browse the website from a country or region where using this website is blocked. ",
+
+    "collectdata-heading": "The Collected Data by Visiting Pet oasis Website:",
+    "collectdata": "Every time you browse Pet oasis website, the information is sent from your browser to Pet oasis server log files to be saved there. It includes the details of your visit, for example, the time and date of your visit to the website, the pages you browsed, your IP address, the email address that led you to Pet oasis website, the type of browser, and the operating system of the device. Once you visit a page of our website that contains a social plugin your browser will create a direct link with the social plugin servers such as (Google and Facebook). Where it transfers the plugin's content directly to your browser, which works to include this information on the website, allowing reception information relating to your access to the selected webpage. As a result, the collected data by visiting Pet oasis website will get transferred, and it certainly does not include any personal data as a name and a phone number. If you do not want to share your visit data with Pet oasis website, you can disable tracking from your browser settings.",
+
+    "inforSec-heading": "Information Security:",
+    "inforSec": "Beyond the registration on this website, you will be required to provide specific personal information, as well as the name, shipping address, email address, phone number, and other similar information as the birth's date or further personal information. The information you record will be stored in our database forms. In addition, we have the right to protect users' information from unauthorized access and change, disclosure, or cancellation of the information we have stored. The servers of Pet oasis website are encrypted by Secure Socket Layer (SSL), so financial information, such as credit cards, is transferred using the SSL protocol to be encrypted before transfer. Note that we do not store the credit card information, but rather directly provide it to the financial institution competent to process it through an encrypted connection.",
+
+    "inforStorage-heading": "Information Storage:",
+    "inforStorage": "We store your personal information on secure and protected servers. By providing your personal information, you agree to the transfer and storage of your personal information on our servers. We take every precaution to keep all your personal information from unauthorized access, use, or disclosure. Although we do our utmost to protect your data, data transmission over the Internet is not completely secure. We cannot guarantee the security of data transmitted to our website, and any transmission is at your own risk. Once we receive your data, we will use all strict measures and security features to prevent unauthorized access, either through our servers or your account. Indeed, we kindly ask you to secure your account thoroughly to reduce the chances of accessing your personal information.",
+
+    "email-heading": "Email:",
+    "email": "Occasionally, we send emails related to promotions, marketing, or events, which we think you might be interested in. You have the right whenever you like to stop receiving these emails by clicking on the unsubscribe link within any email we send you. We will never disclose your email address to a third party, and we may store any email content you send to us if we choose to do so.",
+
+    "cookies-heading": "Cookies:",
+    "cookies": "Pet oasis website uses cookies to save the session on your browser not including personal information. It stores the session to allow you to use the site's features and interact with the website, such as adding products to your shopping cart, so it is a must to run the website. Anyhow, cookies are automatically deleted within a period not exceeding 30 days. Note that you can delete them at any time by the browser settings.This website is served by Google Analytics, a service offered by Google that analyzes web pages and how users interact with the website. Google Analytics is based on cookies, the data created by cookies about your use of this website will be transferred to servers by Google. However, Google uses this information to evaluate your use of the website, to report to site operators about your activity on the website, and to provide other services related to website activity and internet use. Google may also transfer this information to a third party as long as this is legally required or to the extent that the third party may process this data on behalf of Google. Anyway, you can block cookies from your browser's setting, but note you will be unable to benefit from the full functionality of the site. By using this website, you are giving consent to process your data by Google in the manner described above and for the purpose specified above. As we mentioned earlier, there is no collection or process of personal data, only your visit and activity data on this website.",
+
+    "webLink-heading": "External Website Links:",
+    "webLink": "Some of our links may refer to external websites, and we provide these links to you only as a convenience. Please note that we are not responsible for the privacy practices of any external websites we refer to. This privacy policy applies only to the personal information we collect from our site.In addition, we use an interest targeting policy, which allows us to display the advertisements that interest you on our website. By targeting, we mean that we advertise on products you have recently viewed on other websites. That means our displayed advertisements for you on other websites are only the offers and advertisements that interest you. We do that by making a detailed analysis of the collected information in your cookies on our website to recognize your interests as a user. This information is anonymous and does not contain your personal information or any data about you in the customer account records.",
+
+    "personalData-heading": "Sharing Personal Data:",
+    "personalData": "We share part of your data with some companies that complement the operations. For example, your contact data and your address are shared with shipping companies, so shipping companies can deliver your order. Note that Pet oasis does not share all personal data, we only share the basic data to complete the operations. Any information you share with us will not be disclosed to any third party and will be used only for our customer service purposes. As our customers, we guarantee you security, integrity, and confidentiality. You may ask for a copy of the personal data we stored about you by email, and for your protection, you may be required to confirm your identity before providing any information. Whatever, we reserve the right to refuse the requested information if the identification is not provided convincingly.",
+
+    "contactList-heading": "Access to contact list:",
+    "contactList": "We require the access to the phone contact list through the app from the customer. This is an optional feature that allows customer during the gift voucher purchase to easily selects the intended contact for the gift. Pet oasis will not save any contact information from the phone contact list in any form.",
+
+    "Updates-heading": "Updates:",
+    "Updates": "We reserve the right to update this privacy policy at any time. We will not reduce your rights under this privacy policy without your explicit consent. We will publish any changes to the privacy policy on this page, and if the changes are significant, we will provide a more prominent notice. We also archive versions of the previous privacy policy for your review. We encourage you to check the privacy policy regularly to know any changes to our privacy policy.",
+
+    "Admission-heading": "Admission:",
+    "Admission": "When you share data with us via this website, you consent to our retention, sharing, and use of that data for the necessary procedures as set out in this Privacy Policy.                                                         ",
+
+    "StoringData-heading": "Storing Your Data:",
+    "StoringData": "If you have concerned about your data, you have the right to ask us to correct any errors in your data, and the right to ask us to stop using your data for direct marketing purposes.Whether you want to delete your data or suspend your account, you can ask for that. Note if there is no linked data (such as vouchers, orders, or others), we can delete your data. But if there is linked data, we can only suspend your account.To delete or suspend your account, you can email us via 'info@petoasis.com',  If you have any questions about these terms and conditions, please contact us."
+  },
+  "contact": {
+    "title": "CONTACT US",
+    "callcenter": "CALL US:",
+    "number": "WHATSAPP :",
+    "Email": "EMAIL:",
+    "help": "Contact us for a qoute. Help or to join our team."
+  },
+
+  "return": {
+    "title": "Return Policy",
+    "subhead": "The customer can return the purchased product through the Pet Oasis e-store under specific conditions:",
+    "return1": "The item could be returned within a period not later than 3 days from the date of receiving the order.",
+    "return2": "The item must be in the same condition as the original purchased & not used or opened.",
+    "return3": "If the item is damaged the delivery fee shall be refunded, and in other cases, the delivery fee shall not be refunded.",
+    "return4": "The purchase amount will be refunded via Visa, MasterCard or Mada by the same card has been used, and the period of refunding refer to the policy of the bank or the electronic payment intermediary, and when paying by bank transfer, the amount will be returned to the customer’s bank account.",
+    "return5": "The purchase order can be canceled or deleted by canceling it Via Pet Oasis e-store."
+  }
+}
